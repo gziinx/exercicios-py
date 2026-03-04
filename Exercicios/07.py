@@ -1,0 +1,1 @@
+# 7. Leia 3 lados e verifique se formam triângulo. Se formar, classifique: equilátero, isósceles ou escaleno
