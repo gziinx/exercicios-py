@@ -2,9 +2,10 @@
 
 n = int(input("Digite um numero: "))
 
-conta = 0
-
-for i in range(1, n -1 ):
-    if  n >= 0:
-        conta = n * i
-print(f"{n} * {i} = {conta}")
+fatorial = 1
+for i in range(1, n + 1):
+    if n > 0:
+        fatorial *= i
+    elif n == 0:
+        print(f"O fatorial de {n} é 1")
+print(f"O fatorial de {n} é {fatorial}")
